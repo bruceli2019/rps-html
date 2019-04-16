@@ -1,0 +1,140 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Neucha', cursive;
+}
+
+.win {
+    color: green;
+    font-size: 25px;
+}
+
+.lose {
+    color: red;
+    font-size: 25px;
+}
+
+.tie {
+    color: orange;
+    font-size: 25px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.resize {
+    width: 100%;
+    height: auto;
+}
+
+.img-border {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.body-text {
+    vertical-align: top;
+}
+
+.panel-us {
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.panel-them {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.panel-outcome {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.panel-outcome-win {
+    border-color: green;
+    color: green;
+}
+
+.panel-outcome-lose {
+    border-color: red;
+    color: red;
+}
+
+.panel-outcome-tie {
+    border-color: orange;
+    color: orange;
+}
+
+.rules {
+    text-align: center;
+}
+
+.layout-table {
+    width: 1000px;
+    margin: auto;
+}
+
+.inner-table {
+    width: 100%;
+    text-align: center;
+}
+
+.table-height{
+    line-height: 0%;
+}
+
+.fancy-link {
+    text-align: center;
+    border-color: teal;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    color: teal;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    transition-property: all;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.fancy-link:hover {
+    background-color: teal;
+    color: white;
+
+}
+
+.fancy-link-active {
+    background-color: teal;
+    color: white;
+}
